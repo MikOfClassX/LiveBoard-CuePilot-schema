@@ -1,0 +1,59 @@
+{
+   "id": "liveboard",
+   "label": "LiveBoard",
+   "description": "OSC Schema for controlling LiveBoard.",
+   "commands": [
+      {
+         "id": "play",
+         "label": "Play",
+         "description": "Play the given LiveBoard content.\n/lvb/control/play",
+         "address": "/lvb/control/play",
+         "args": [
+            {"id": "contentname",  "caption": "Content",  "type": "s", "edittype": "string", "default": "", "maxlength": 100, "discardInArgs": false}
+         ]
+      },
+      {
+         "id": "stop",
+         "label": "Stop",
+         "description": "Stop the given LiveBoard content.\n/lvb/control/stop",
+         "address": "/lvb/control/stop",
+         "args": [
+            {"id": "contentname",  "caption": "Content",  "type": "s", "edittype": "string", "default": "", "maxlength": 100, "discardInArgs": false}
+         ]
+      },
+      {
+         "id": "pause",
+         "label": "Pause",
+         "description": "Pause the given LiveBoard content.\n/lvb/control/pause",
+         "address": "/lvb/control/pause",
+         "args": [
+            {"id": "contentname",  "caption": "Content",  "type": "s", "edittype": "string", "default": "", "maxlength": 100, "discardInArgs": false}
+         ]
+      },
+      {
+         "id": "resume",
+         "label": "Resume",
+         "description": "Resume the given LiveBoard content.\n/lvb/control/resume",
+         "address": "/lvb/control/resume",
+         "args": [
+            {"id": "contentname",  "caption": "Content",  "type": "s", "edittype": "string", "default": "", "maxlength": 100, "discardInArgs": false}
+         ]
+      },
+	  {
+         "id": "stopall",
+         "label": "Stop All",
+         "description": "Stop all LiveBoard contents.\n/lvb/control/stopall",
+         "address": "/lvb/control/stopall",
+         "args": []
+      },
+	  {
+         "id": "lbcontrol",
+         "label": "LBControl",
+         "description": "Send LBControl command to LiveBoard.\n/lvb/control/lbcontrol",
+         "address": "/lvb/control/lbcontrol",
+         "args": [
+            {"id": "command",  "caption": "Command",  "type": "s", "edittype": "string", "default": "", "maxlength": 1000, "discardInArgs": false}
+         ]
+      }
+   ]
+}
