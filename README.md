@@ -14,6 +14,6 @@ Select Import Custom OSC Schema from File and select the .JSON file on your comp
 Select Save and CuePilot will now have it available for you to use in your Project.
 
 
-
-
 # Video guide
+
+![](https://raw.githubusercontent.com/MikOfClassX/LiveBoard-CuePilot-schema/main/cuepilot-liveboard_setup.gif)
