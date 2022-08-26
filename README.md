@@ -12,3 +12,8 @@ Give your OSC Schema a Label to give it a name in CuePilot.
 Select Import Custom OSC Schema from File and select the .JSON file on your computer.
 
 Select Save and CuePilot will now have it available for you to use in your Project.
+
+
+
+
+# Video guide
