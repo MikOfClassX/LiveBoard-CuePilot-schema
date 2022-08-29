@@ -1,7 +1,7 @@
 {
    "id": "liveboard",
    "label": "LiveBoard",
-   "description": "OSC Schema for controlling LiveBoard.",
+   "description": "OSC schema for controlling graphics playback, triggering contents in ClassX LiveBoard.",
    "commands": [
       {
          "id": "play",
